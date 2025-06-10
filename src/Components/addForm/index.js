@@ -24,6 +24,7 @@ export const AddForm = () => {
     };
     dispatch(addExpense(data));
   };
+  console.log("pp");
   const handlecategort = (category) => {
     console.log("priy");
     setmycat(category);
